@@ -1695,3 +1695,36 @@ select:focus-visible {
     line-height: 1;
   }
 }
+/* ==========================================
+   PROPERTY MANAGEMENT - HERO VISUAL FIX
+   ========================================== */
+
+.property-management-page .hero-grid {
+  grid-template-columns: 1.15fr 0.85fr;
+  gap: 50px;
+}
+
+.property-management-page .hero-visual {
+  width: 100%;
+  max-width: 500px;
+  min-height: 420px;
+  margin-left: auto;
+  margin-right: 0;
+  transform: scale(0.82);
+  transform-origin: center right;
+}
+
+.property-management-page .building-card-main {
+  width: 100%;
+  max-width: 430px;
+  height: 330px;
+}
+
+.property-management-page .floating-card-one {
+  left: -20px;
+  right: auto;
+}
+
+.property-management-page .floating-card-two {
+  right: 0;
+}
