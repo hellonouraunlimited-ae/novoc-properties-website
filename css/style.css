@@ -1700,8 +1700,13 @@ select:focus-visible {
    ========================================== */
 
 .property-management-page .hero-grid {
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 50px;
+  grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+  gap: 40px;
+  align-items: center;
+}
+
+.property-management-page .hero-content {
+  min-width: 0;
 }
 
 .property-management-page .hero-visual {
