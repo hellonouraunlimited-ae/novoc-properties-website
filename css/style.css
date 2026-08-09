@@ -1648,7 +1648,7 @@ select:focus-visible {
 
 .property-management-page .hero {
   min-height: auto;
-  padding: 70px 0 65px;
+  padding: 70px 110px 65px;
   background:
     radial-gradient(
       circle at 85% 25%,
