@@ -1643,12 +1643,13 @@ select:focus-visible {
 }
 
 /* ==================================================
+ /* ==================================================
    PROPERTY MANAGEMENT PAGE — COMPACT HERO
    ================================================== */
 
 .property-management-page .hero {
   min-height: auto;
-  padding: 70px 0 65px;
+  padding: 58px 0 62px;
   background:
     radial-gradient(
       circle at 85% 25%,
@@ -1665,75 +1666,101 @@ select:focus-visible {
 
 .property-management-page .hero-grid {
   min-height: auto;
-  align-items: center;
-}
-
-.property-management-page .hero h1 {
-  font-size: clamp(2.6rem, 3.6vw, 4.2rem);
-  line-height: 1.02;
-  max-width: 680px;
-  margin-bottom: 22px;
-}
-
-.property-management-page .hero-description {
-  max-width: 720px;
-  font-size: 1.05rem;
-  line-height: 1.7;
-}
-
-.property-management-page .hero-actions {
-  margin-top: 28px;
-}
-
-@media (max-width: 768px) {
-  .property-management-page .hero {
-    padding: 55px 0 50px;
-  }
-
-  .property-management-page .hero h1 {
-    font-size: clamp(2.5rem, 11vw, 3.8rem);
-    line-height: 1;
-  }
-}
-/* ==========================================
-   PROPERTY MANAGEMENT - HERO VISUAL FIX
-   ========================================== */
-
-.property-management-page .hero-grid {
-  grid-template-columns: minmax(0, 1.25fr) minmax(340px, 0.75fr);
-  gap: 30px;
+  grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.65fr);
+  gap: 45px;
   align-items: center;
 }
 
 .property-management-page .hero-content {
   min-width: 0;
-  margin-left: 70px;
-  max-width: 820px;
+  max-width: 760px;
+  margin: 0;
 }
 
+.property-management-page .hero h1 {
+  max-width: 760px;
+  margin-bottom: 20px;
+  font-size: clamp(2.4rem, 3vw, 3.5rem);
+  line-height: 1.04;
+}
+
+.property-management-page .hero-description {
+  max-width: 680px;
+  margin-bottom: 26px;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.property-management-page .hero-actions {
+  margin-top: 0;
+}
 
 .property-management-page .hero-visual {
-    width: 100%;
-    max-width: 500px;
-    min-height: 420px;
-    margin-left: auto;
-    margin-right: 40px;
-    transform: scale(0.82);
-    transform-origin: center center;
-}
- 
-
-.property-management-page .building-card-main {
   width: 100%;
   max-width: 430px;
-  height: 330px;
+  min-height: 350px;
+  margin-left: auto;
+}
+
+.property-management-page .building-card-main {
+  top: 10px;
+  right: 0;
+  width: 100%;
+  max-width: 390px;
+  height: 320px;
 }
 
 .property-management-page .floating-card-one {
-  left: -20px;
+  top: 80px;
+  left: -25px;
   right: auto;
 }
 
 .property-management-page .floating-card-two {
-  right: 0;
+  right: -5px;
+  bottom: 40px;
+}
+
+@media (max-width: 768px) {
+  .property-management-page .hero {
+    padding: 48px 0 52px;
+  }
+
+  .property-management-page .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 35px;
+  }
+
+  .property-management-page .hero-content {
+    max-width: none;
+    margin: 0;
+  }
+
+  .property-management-page .hero h1 {
+    max-width: none;
+    font-size: clamp(2.25rem, 10vw, 3.3rem);
+    line-height: 1.02;
+  }
+
+  .property-management-page .hero-description {
+    font-size: 0.98rem;
+  }
+
+  .property-management-page .hero-visual {
+    max-width: 390px;
+    min-height: 330px;
+    margin-inline: auto;
+  }
+
+  .property-management-page .building-card-main {
+    height: 300px;
+  }
+
+  .property-management-page .floating-card-one {
+    left: 0;
+  }
+
+  .property-management-page .floating-card-two {
+    right: 0;
+  }
 }
