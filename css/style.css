@@ -1648,7 +1648,7 @@ select:focus-visible {
 
 .property-management-page .hero {
   min-height: auto;
-  padding: 70px 110px 65px;
+  padding: 70px 0 65px;
   background:
     radial-gradient(
       circle at 85% 25%,
@@ -1707,7 +1707,10 @@ select:focus-visible {
 
 .property-management-page .hero-content {
   min-width: 0;
+  padding-left: 110px;
+  max-width: 850px;
 }
+
 
 .property-management-page .hero-visual {
     width: 100%;
@@ -1718,14 +1721,7 @@ select:focus-visible {
     transform: scale(0.82);
     transform-origin: center center;
 }
-  width: 100%;
-  max-width: 500px;
-  min-height: 420px;
-  margin-left: auto;
-  margin-right: 0;
-  transform: scale(0.82);
-  transform-origin: center right;
-}
+ 
 
 .property-management-page .building-card-main {
   width: 100%;
