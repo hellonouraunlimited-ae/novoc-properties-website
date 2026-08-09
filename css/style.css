@@ -1707,8 +1707,8 @@ select:focus-visible {
 
 .property-management-page .hero-content {
   min-width: 0;
-  padding-left: 110px;
-  max-width: 850px;
+  margin-left: 110px;
+  max-width: 740px;
 }
 
 
