@@ -1641,3 +1641,57 @@ select:focus-visible {
       var(--purple-50) 100%
     );
 }
+
+/* ==================================================
+   PROPERTY MANAGEMENT PAGE — COMPACT HERO
+   ================================================== */
+
+.property-management-page .hero {
+  min-height: auto;
+  padding: 70px 0 65px;
+  background:
+    radial-gradient(
+      circle at 85% 25%,
+      rgba(143, 189, 63, 0.16),
+      transparent 30%
+    ),
+    linear-gradient(
+      135deg,
+      #f4eff7 0%,
+      #eee4f3 55%,
+      #e6f0dc 100%
+    );
+}
+
+.property-management-page .hero-grid {
+  min-height: auto;
+  align-items: center;
+}
+
+.property-management-page .hero h1 {
+  font-size: clamp(2.8rem, 5vw, 5rem);
+  line-height: 0.98;
+  max-width: 850px;
+  margin-bottom: 24px;
+}
+
+.property-management-page .hero-description {
+  max-width: 720px;
+  font-size: 1.05rem;
+  line-height: 1.7;
+}
+
+.property-management-page .hero-actions {
+  margin-top: 28px;
+}
+
+@media (max-width: 768px) {
+  .property-management-page .hero {
+    padding: 55px 0 50px;
+  }
+
+  .property-management-page .hero h1 {
+    font-size: clamp(2.5rem, 11vw, 3.8rem);
+    line-height: 1;
+  }
+}
