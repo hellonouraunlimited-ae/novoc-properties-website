@@ -638,15 +638,18 @@
     padding: 58px 0 62px;
   }
 
-  .property-management-page .hero-grid {
-    grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.65fr);
-    gap: 45px;
-    align-items: center;
-  }
+ .property-management-page .hero-grid {
+  grid-template-columns: minmax(0, 1.35fr) minmax(330px, 0.65fr);
+  gap: 45px;
+  align-items: center;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 70px;
+}
 
  .property-management-page .hero-content {
   max-width: 760px;
-  margin-left: 70px;
+  margin-left: 0;
   margin-right: 0;
 }
 
