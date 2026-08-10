@@ -668,13 +668,13 @@
 /* FINAL DESKTOP HERO CENTERING FIX */
 @media (min-width: 769px) {
 
-   .property-management-page .hero {
-  padding-left: 70px;
-  padding-right: 70px;
-}
+  .property-management-page .hero {
+    padding-left: 0;
+    padding-right: 0;
+  }
 
   .property-management-page .hero-grid {
-    width: calc(100% - 120px);
+    width: 90%;
     max-width: 1400px;
     margin-left: auto;
     margin-right: auto;
