@@ -1764,3 +1764,141 @@ select:focus-visible {
     right: 0;
   }
 }
+/* =========================================
+   NOVOC PROPERTY MANAGEMENT - DUBAI HERO
+   ========================================= */
+
+.property-management-page .hero-dubai {
+  position: relative;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(27, 15, 55, 0.95) 0%,
+      rgba(42, 24, 76, 0.88) 35%,
+      rgba(52, 30, 91, 0.66) 58%,
+      rgba(46, 28, 78, 0.22) 100%
+    ),
+    url("../images/property-management-hero.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.property-management-page .hero-dubai .hero-dubai-inner {
+  position: relative;
+  z-index: 2;
+  width: min(calc(100% - 120px), 1320px);
+  margin: 0 auto;
+  padding: 82px 0;
+}
+
+.property-management-page .hero-dubai .hero-content {
+  width: 100%;
+  max-width: 650px;
+  margin: 0;
+  padding: 0;
+}
+
+.property-management-page .hero-dubai .eyebrow {
+  margin-bottom: 20px;
+  color: #c993e5;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.property-management-page .hero-dubai h1 {
+  max-width: 650px;
+  margin: 0 0 24px;
+  color: #ffffff;
+  font-size: clamp(2.8rem, 4vw, 4.2rem);
+  line-height: 1.03;
+}
+
+.property-management-page .hero-dubai h1 span {
+  display: block;
+  margin-top: 16px;
+  color: #a7cf49;
+  font-size: 0.52em;
+  line-height: 1.15;
+}
+
+.property-management-page .hero-dubai .hero-description {
+  max-width: 610px;
+  margin: 0;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 1rem;
+  line-height: 1.75;
+}
+
+.property-management-page .hero-dubai .hero-actions {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
+  margin-top: 32px;
+}
+
+.property-management-page .hero-dubai .button-primary {
+  background: linear-gradient(135deg, #8d3bb6, #6f2a98);
+  color: #ffffff;
+  border: none;
+}
+
+.property-management-page .hero-dubai .button-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 980px) {
+
+  .property-management-page .hero-dubai {
+    min-height: auto;
+
+    background:
+      linear-gradient(
+        90deg,
+        rgba(27, 15, 55, 0.94) 0%,
+        rgba(42, 24, 76, 0.82) 60%,
+        rgba(46, 28, 78, 0.50) 100%
+      ),
+      url("../images/property-management-hero.png");
+
+    background-size: cover;
+    background-position: 65% center;
+  }
+
+  .property-management-page .hero-dubai .hero-dubai-inner {
+    width: min(calc(100% - 40px), 760px);
+    padding: 68px 0;
+  }
+
+  .property-management-page .hero-dubai h1 {
+    font-size: clamp(2.3rem, 8vw, 3.4rem);
+  }
+}
+
+@media (max-width: 640px) {
+
+  .property-management-page .hero-dubai .hero-dubai-inner {
+    width: calc(100% - 32px);
+    padding: 56px 0;
+  }
+
+  .property-management-page .hero-dubai .hero-actions {
+    flex-direction: column;
+  }
+
+  .property-management-page .hero-dubai .button-primary,
+  .property-management-page .hero-dubai .button-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
