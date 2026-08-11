@@ -627,4 +627,87 @@
     font-size: 0.84rem;
   }
 }
+/* =========================================
+   NOVOC PROPERTY MANAGEMENT HERO
+   FINAL OVERRIDE
+   ========================================= */
 
+body .hero.hero-dubai {
+  position: relative;
+  min-height: 620px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 0 !important;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(25, 13, 52, 0.96) 0%,
+      rgba(38, 20, 70, 0.90) 34%,
+      rgba(49, 27, 88, 0.65) 58%,
+      rgba(39, 22, 68, 0.15) 100%
+    ),
+    url("../images/property-management-hero.png") center center / cover no-repeat !important;
+}
+
+body .hero.hero-dubai .hero-dubai-inner {
+  position: relative;
+  z-index: 2;
+  width: min(calc(100% - 120px), 1320px);
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 78px 0;
+}
+
+body .hero.hero-dubai .hero-content {
+  width: 100%;
+  max-width: 640px;
+  margin: 0;
+  padding: 0;
+}
+
+body .hero.hero-dubai .eyebrow {
+  color: #c993e5 !important;
+  margin-bottom: 18px;
+}
+
+body .hero.hero-dubai h1 {
+  max-width: 640px;
+  margin: 0 0 22px;
+  color: #ffffff !important;
+  font-size: clamp(2.8rem, 3.8vw, 4rem);
+  line-height: 1.03;
+}
+
+body .hero.hero-dubai h1 span {
+  display: block;
+  margin-top: 14px;
+  color: #a7cf49 !important;
+  font-size: 0.52em;
+  line-height: 1.15;
+}
+
+body .hero.hero-dubai .hero-description {
+  max-width: 590px;
+  color: rgba(255,255,255,0.94) !important;
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+body .hero.hero-dubai .hero-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 30px;
+}
+
+body .hero.hero-dubai .button-primary {
+  background: linear-gradient(135deg, #8d3bb6, #702a98) !important;
+  color: #ffffff !important;
+}
+
+body .hero.hero-dubai .button-secondary {
+  background: rgba(255,255,255,0.06) !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(255,255,255,0.75) !important;
+}
