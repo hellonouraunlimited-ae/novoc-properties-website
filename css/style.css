@@ -1064,9 +1064,10 @@ h3 {
 
 .standards-box {
   display: grid;
-  padding: 70px;
-  grid-template-columns: 0.9fr 1.1fr;
-  gap: 80px;
+  padding: 60px 70px;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: center;
   background: var(--charcoal-950);
   border-radius: 36px;
 }
@@ -1074,6 +1075,9 @@ h3 {
 .standards-box h2 {
   margin-bottom: 0;
   color: var(--white);
+  font-size: clamp(2.8rem, 4vw, 4.6rem);
+  line-height: 1.06;
+  max-width: 560px;
 }
 
 .standards-box .eyebrow {
@@ -1081,12 +1085,15 @@ h3 {
 }
 
 .standards-box > div:last-child {
-  padding-left: 40px;
-  border-left: 1px solid rgba(255, 255, 255, 0.15);
+  padding-left: 50px;
+  border-left: 1px solid rgba(255, 255, 255, 0.22);
+  align-self: center;
 }
 
 .standards-box > div:last-child p {
-  color: rgba(255, 255, 255, 0.68);
+  color: rgba(255, 255, 255, 0.88);
+  font-size: 1.05rem;
+  line-height: 1.75;
 }
 
 .standards-box > div:last-child p:last-child {
