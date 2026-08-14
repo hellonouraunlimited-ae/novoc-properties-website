@@ -1907,3 +1907,121 @@ select:focus-visible {
     justify-content: center;
   }
 }
+
+
+/* =========================================
+   HOME PAGE SKYLINE HERO
+========================================= */
+
+.hero-home-skyline {
+  position: relative;
+  min-height: 560px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  padding: 72px 0;
+
+  background:
+    linear-gradient(
+      90deg,
+      rgba(27, 15, 55, 0.94) 0%,
+      rgba(42, 24, 76, 0.86) 38%,
+      rgba(52, 30, 91, 0.55) 60%,
+      rgba(46, 28, 78, 0.16) 100%
+    ),
+    url("../images/property-management-hero.png");
+
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.hero-home-skyline .hero-home-inner {
+  position: relative;
+  z-index: 2;
+  width: min(calc(100% - 120px), 1320px);
+  margin: 0 auto;
+}
+
+.hero-home-skyline .hero-content {
+  width: 100%;
+  max-width: 720px;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-home-skyline .eyebrow {
+  margin-bottom: 18px;
+  color: #cf93e5;
+  font-size: 0.84rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+}
+
+.hero-home-skyline h1 {
+  max-width: 720px;
+  margin-bottom: 22px;
+  color: #ffffff;
+  font-size: clamp(2.8rem, 4.2vw, 4.4rem);
+  line-height: 1.02;
+}
+
+.hero-home-skyline h1 span {
+  display: block;
+  margin-top: 10px;
+  color: #a7cf49;
+  font-size: 0.55em;
+  line-height: 1.15;
+}
+
+.hero-home-skyline .hero-description {
+  max-width: 650px;
+  margin-bottom: 28px;
+  color: rgba(255, 255, 255, 0.94);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.hero-home-skyline .hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.hero-home-skyline .button-primary {
+  background: linear-gradient(135deg, #8d3bb6, #702a98);
+  color: #ffffff;
+}
+
+.hero-home-skyline .button-secondary {
+  background: rgba(255, 255, 255, 0.06);
+  color: #ffffff;
+  border: 1px solid rgba(255, 255, 255, 0.75);
+}
+
+@media (max-width: 980px) {
+  .hero-home-skyline {
+    min-height: auto;
+    padding: 60px 0;
+    background-position: 68% center;
+  }
+
+  .hero-home-skyline .hero-home-inner {
+    width: min(calc(100% - 40px), 760px);
+  }
+
+  .hero-home-skyline h1 {
+    font-size: clamp(2.3rem, 8vw, 3.5rem);
+  }
+
+  .hero-home-skyline .hero-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .hero-home-skyline .button-primary,
+  .hero-home-skyline .button-secondary {
+    width: 100%;
+    justify-content: center;
+  }
+}
