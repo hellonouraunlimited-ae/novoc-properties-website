@@ -2042,4 +2042,14 @@ select:focus-visible {
   height: 100%;
   display: block;
   object-fit: cover;
+  object-position: center;
+}
+
+.industry-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.industry-card .industry-image {
+  margin-top: 18px;
 }
