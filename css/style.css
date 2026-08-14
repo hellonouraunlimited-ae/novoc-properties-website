@@ -2045,11 +2045,3 @@ select:focus-visible {
   object-position: center;
 }
 
-.industry-card {
-  display: flex;
-  flex-direction: column;
-}
-
-.industry-card .industry-image {
-  margin-top: 18px;
-}
