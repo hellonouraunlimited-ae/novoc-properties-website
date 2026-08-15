@@ -1109,8 +1109,9 @@ h3 {
 
 .insights-grid {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 22px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 24px;
+  width: 100%;
 }
 
 .insight-card {
@@ -1121,6 +1122,8 @@ h3 {
   transition:
     transform var(--transition),
     box-shadow var(--transition);
+min-width: 0;
+width: 100%;
 }
 
 .insight-card:hover {
@@ -1183,6 +1186,9 @@ h3 {
 
 .insight-content {
   padding: 28px;
+  width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .insight-content > span {
@@ -1196,10 +1202,18 @@ h3 {
 }
 
 .insight-content h3 {
-  min-height: 78px;
-  margin-bottom: 23px;
+  min-height: 0;
+  margin-bottom: 18px;
   font-size: 1.12rem;
   line-height: 1.42;
+  overflow-wrap: break-word;
+  word-break: normal;
+}
+
+.insight-content p {
+  font-size: 0.95rem;
+  line-height: 1.65;
+  overflow-wrap: break-word;
 }
 
 .insight-content a {
