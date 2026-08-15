@@ -712,36 +712,3 @@ body .hero.hero-dubai .button-secondary {
   border: 1px solid rgba(255,255,255,0.75) !important;
 }
 
-/* =========================================
-   PROFESSIONAL STANDARDS - DESKTOP FIX
-========================================= */
-
-@media (min-width: 981px) {
-
-  .standards-box {
-    grid-template-columns: 1.05fr 0.95fr !important;
-    gap: 60px !important;
-    padding: 55px 70px !important;
-    align-items: center !important;
-  }
-
-  .standards-box h2 {
-    font-size: clamp(2.6rem, 3.5vw, 4rem) !important;
-    line-height: 1.08 !important;
-    max-width: 620px !important;
-    margin-bottom: 0 !important;
-    color: #ffffff !important;
-  }
-
-  .standards-box > div:last-child {
-    padding-left: 50px !important;
-    border-left: 1px solid rgba(255, 255, 255, 0.22) !important;
-    align-self: center !important;
-  }
-
-  .standards-box > div:last-child p {
-    color: rgba(255, 255, 255, 0.88) !important;
-    font-size: 1.05rem !important;
-    line-height: 1.75 !important;
-  }
-}
