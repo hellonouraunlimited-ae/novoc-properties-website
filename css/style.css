@@ -1091,9 +1091,14 @@ h3 {
 }
 
 .standards-box > div:last-child p {
-  color: rgba(255, 255, 255, 0.88);
+  color: #ffffff;
   font-size: 1.05rem;
   line-height: 1.75;
+}
+
+.standards-box > div:last-child p strong,
+.standards-box > div:last-child a {
+  color: #ffffff;
 }
 
 .standards-box > div:last-child p:last-child {
