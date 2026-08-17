@@ -712,3 +712,21 @@ body .hero.hero-dubai .button-secondary {
   border: 1px solid rgba(255,255,255,0.75) !important;
 }
 
+/* FINAL PROPOSAL LEFT TEXT FIX */
+
+#proposal .proposal-content .proposal-intro,
+#proposal .proposal-content .contact-details,
+#proposal .proposal-content .contact-details *,
+#proposal .proposal-content .contact-item,
+#proposal .proposal-content .contact-item *,
+#proposal .proposal-content .contact-item a,
+#proposal .proposal-content .contact-item strong,
+#proposal .proposal-content .contact-item span {
+  color: #ffffff !important;
+  opacity: 1 !important;
+}
+
+#proposal .proposal-content .eyebrow {
+  color: #a9cf5b !important;
+  opacity: 1 !important;
+}
