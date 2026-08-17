@@ -1269,19 +1269,17 @@ width: 100%;
   color: var(--white);
 }
 .proposal-intro {
-  color: #ffffff;
+  color: #ffffff !important;
 }
 
-.contact-item,
-.contact-item span,
-.contact-item strong,
-.contact-item a {
-  color: #ffffff;
+.proposal-content .contact-details,
+.proposal-content .contact-item,
+.proposal-content .contact-item span,
+.proposal-content .contact-item strong,
+.proposal-content .contact-item a {
+  color: #ffffff !important;
 }
 
-.proposal-content,
-.proposal-content p,
-.proposal-content strong,
 .proposal-content a {
   color: #ffffff;
 }
