@@ -2089,3 +2089,20 @@ select:focus-visible {
   object-position: center;
 }
 
+/* FINAL PROPOSAL TEXT VISIBILITY FIX */
+
+#proposal .proposal-intro {
+  color: #ffffff !important;
+}
+
+#proposal .contact-details,
+#proposal .contact-item,
+#proposal .contact-item span,
+#proposal .contact-item strong,
+#proposal .contact-item a {
+  color: #ffffff !important;
+}
+
+#proposal .proposal-content .eyebrow {
+  color: #a9cf5b !important;
+}
