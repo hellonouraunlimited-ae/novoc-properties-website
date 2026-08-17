@@ -1268,6 +1268,20 @@ width: 100%;
   margin-bottom: 25px;
   color: var(--white);
 }
+.proposal-intro {
+  color: rgba(255, 255, 255, 0.88);
+}
+
+.contact-item,
+.contact-item span,
+.contact-item strong,
+.contact-item a {
+  color: rgba(255, 255, 255, 0.92);
+}
+
+.proposal-content .eyebrow {
+  color: #a9cf5b;
+}
 
 .proposal-grid > div:first-child > p:last-child {
   max-width: 510px;
