@@ -1269,14 +1269,21 @@ width: 100%;
   color: var(--white);
 }
 .proposal-intro {
-  color: rgba(255, 255, 255, 0.88);
+  color: #ffffff;
 }
 
 .contact-item,
 .contact-item span,
 .contact-item strong,
 .contact-item a {
-  color: rgba(255, 255, 255, 0.92);
+  color: #ffffff;
+}
+
+.proposal-content,
+.proposal-content p,
+.proposal-content strong,
+.proposal-content a {
+  color: #ffffff;
 }
 
 .proposal-content .eyebrow {
